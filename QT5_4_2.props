@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>C:\Qt\Qt5.4.2\5.4\msvc2013_opengl\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Qt\Qt5.4.2\5.4\msvc2013_opengl\include;C:\Qt\Qt5.4.2\5.4\msvc2013_opengl\include\QtWidgets;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Qt\Qt5.4.2\5.4\msvc2013_opengl\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Multimediad.lib;Qt5MultimediaWidgetsd.lib;Qt5PrintSupportd.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

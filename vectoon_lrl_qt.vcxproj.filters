@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f07fbc6f-6bf7-4634-bafb-def1ded83ad3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1a44c612-a190-4e93-b8dd-431de3cdf887}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="sift_match">
+      <UniqueIdentifier>{91ebc715-3d89-4ded-bdd0-98732902e497}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_vectoon_lrl_qt.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmConsoleWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Video_Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Video_Player.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Video_Player.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Video_Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\imgfeatures.c">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\kdtree.c">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\minpq.c">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\sift.c">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\siftmatch.cpp">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\utils.c">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_match\xform.c">
+      <Filter>sift_match</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="vectoon_lrl_qt.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Video_Player.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CmConsoleWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Video_Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\imgfeatures.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\kdtree.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\minpq.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\sift.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\siftmatch.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\utils.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+    <ClInclude Include="sift_match\xform.h">
+      <Filter>sift_match</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
